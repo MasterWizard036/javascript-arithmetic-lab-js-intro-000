@@ -2,7 +2,7 @@ var x = add(1, 2);
     y = subtract(1, 2);
     z = multiply(1, 2);
     d = divide(1, 2);
-    n = inc(3);
+    n = inc(1);
     
 
 function add(a, b) {
