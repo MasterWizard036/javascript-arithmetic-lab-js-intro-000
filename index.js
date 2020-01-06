@@ -2,7 +2,7 @@ var x = add(1, 2);
     y = subtract(1, 2);
     z = multiply(1, 2);
     d = divide(1, 2);
-    n = 3;
+    n = inc(3);
     
 
 function add(a, b) {
@@ -17,4 +17,6 @@ function multiply(a, b) {
 function divide(a, b) {
   return a / b;            
 }
-functioninc(n)n++
+function inc(n){
+return n++;
+}
