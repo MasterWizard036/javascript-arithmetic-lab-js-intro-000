@@ -1,6 +1,6 @@
-var x = myFunction(1, 2);   // Function is called, return value will end up in x
+var x = myFunction(1, 2);  
 
-function myFunction(a, b) {
-  return a + b;             // Function returns the product of a and b
+function add(a, b) {
+  return a + b;            
 }
 x;
