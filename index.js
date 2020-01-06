@@ -35,5 +35,8 @@ return n;
 }
 function preserveDecimal(n, a){
   parseInt('n', a)
-  return preserveDecimal;
+  const parsed = parseInt(n, a);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 100;
+}
 }
