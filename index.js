@@ -3,6 +3,7 @@ var x = add(1, 2);
     z = multiply(1, 2);
     d = divide(1, 2);
     n = inc(1);
+    e = dec(1);
     
 
 function add(a, b) {
@@ -19,5 +20,9 @@ function divide(a, b) {
 }
 function inc(n){
 n++;
+return n;
+}
+function dec(n){
+n--;
 return n;
 }
