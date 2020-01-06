@@ -4,7 +4,7 @@ var x = add(1, 2);
     d = divide(1, 2);
     f = inc(1);
     e = dec(1);
-    n = makeInt(10, 10);
+    n = makeInt(10);
     b = preserveDecimal(10, 'stuff!');
     
     
@@ -29,11 +29,11 @@ function dec(n){
 n--;
 return n;
 }
-function makeInt(n, a){
+function makeInt(n){
 parseFloat('n');
 return n;
 }
 function preserveDecimal(n, a){
-  parseInt('a', n)
+  parseInt('n', a)
   return preserveDecimal;
 }
