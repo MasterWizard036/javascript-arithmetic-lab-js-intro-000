@@ -2,8 +2,10 @@ var x = add(1, 2);
     y = subtract(1, 2);
     z = multiply(1, 2);
     d = divide(1, 2);
-    n = inc(1);
+    f = inc(1);
     e = dec(1);
+    c = makeInt(1);
+    
     
 
 function add(a, b) {
@@ -24,5 +26,9 @@ return n;
 }
 function dec(n){
 n--;
+return n;
+}
+function makeInt(n){
+parseFloat('n')
 return n;
 }
