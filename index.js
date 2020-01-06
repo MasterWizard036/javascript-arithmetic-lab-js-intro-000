@@ -1,15 +1,3 @@
-var x = add(1, 2);
-    y = subtract(1, 2);
-    z = multiply(1, 2);
-    d = divide(1, 2);
-    f = inc(1);
-    e = dec(1);
-    n = makeInt(10, 10);
-    b = preserveDecimal
-    ('stuff!', 10);
-    
-    
-
 function add(a, b) {
   return a + b;            
 }
