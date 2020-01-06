@@ -30,7 +30,7 @@ n--;
 return n;
 }
 function makeInt(n){
-parseFloat('n');
+parseFloat('n', 10);
 return n;
 }
 function preserveDecimal(n){
