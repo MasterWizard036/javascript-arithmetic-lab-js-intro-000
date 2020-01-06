@@ -1,6 +1,6 @@
 var x = add(1, 2);
     y = subtract(1, 2);
-    z = multiply(734, 6.93324250681);
+    z = multiply(a, b);
 
 function add(a, b) {
   return a + b;            
