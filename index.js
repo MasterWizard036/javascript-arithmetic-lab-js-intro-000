@@ -4,7 +4,7 @@ var x = add(1, 2);
     d = divide(1, 2);
     f = inc(1);
     e = dec(1);
-    c = makeInt(1);
+    c = makeInt(10);
     
     
 
