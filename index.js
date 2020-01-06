@@ -5,7 +5,7 @@ var x = add(1, 2);
     f = inc(1);
     e = dec(1);
     n = makeInt(10);
-    b = preserveDecimal(10, 'stuff!');
+    b = preserveDecimal('stuff!', 10);
     
     
 
