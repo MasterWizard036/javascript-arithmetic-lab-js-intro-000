@@ -37,7 +37,7 @@ return n;
 }
 
 function makeInt(n, a){
-return parseFloat('n', 10);
+return parseFloat('n');
 
 }
 
