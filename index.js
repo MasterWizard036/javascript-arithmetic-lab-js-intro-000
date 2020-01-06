@@ -34,9 +34,7 @@ parseFloat('n');
 return n;
 }
 function preserveDecimal(n, a){
-  parseInt('n', a)
-  const parsed = parseInt(n, a);
+  const parsed = parseInt('n', a);
   if (isNaN(parsed)) { return 0 }
   return parsed * 100;
-}
 }
