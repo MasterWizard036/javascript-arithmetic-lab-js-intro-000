@@ -18,5 +18,5 @@ function divide(a, b) {
   return a / b;            
 }
 function increment(a) {
-  return inc(n);            
+  return a++;            
 }
